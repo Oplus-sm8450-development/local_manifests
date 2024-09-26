@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitlab.com" name="gitlab" />
-
   <!-- Common repositories that are universal for all oplus devices -->
   <project name="Oplus-sm8450-development/android_hardware_oplus" path="hardware/oplus" revision="a14" />
   <project name="pjgowtham/proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="lineage-21" remote="gitlab" />
