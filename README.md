@@ -1,6 +1,6 @@
 Installing Repo
 
-        git clone https://github.com/Oplus-sm8450-development/local-manifests.git -b a14 .repo/local_manifests/
+        git clone https://github.com/Oplus-sm8450-development/local_manifests.git -b a14 .repo/local_manifests/
         
 sync repo
 
