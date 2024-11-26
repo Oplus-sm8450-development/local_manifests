@@ -3,23 +3,20 @@
   <remote fetch="https://gitlab.com" name="gitlab" />
   
   <!-- Common repositories that are universal for all oplus devices -->
-  <project name="Oplus-sm8450-development/hardware_oplus" path="hardware/oplus" revision="a14" remote="github" />
-  <project name="pjgowtham/proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="lineage-21" remote="gitlab" />
-  
+  <project name="Oplus-sm8450-development/hardware_oplus" path="hardware/oplus" revision="lineage-22" remote="github" />
   <!-- SM8450 Kernel -->
   <project name="Oplus-sm8450-development/android_kernel_oneplus_sm8450" path="kernel/oneplus/sm8450" revision="lineage-21" remote="github" />
-  <project name="Oplus-sm8450-development/android_kernel_oneplus_sm8450-modules" path="kernel/oneplus/sm8450-modules" revision="lineage-21" remote="github" />
-  <project name="Oplus-sm8450-development/android_kernel_oneplus_sm8450-devicetrees" path="kernel/oneplus/sm8450-devicetrees" revision="a14" remote="github" />
 
   <!-- SM8450 Common device and vendor trees -->
-  <project name="Oplus-sm8450-development/android_device_oneplus_sm8450-common" path="device/oneplus/sm8450-common" revision="lineage-21" remote="github" />
-  <project name="Oplus-sm8450-development/vendor_oneplus_sm8450-common" path="vendor/oneplus/sm8450-common" revision="a14" remote="github" />
-  <project name="Oplus-sm8450-development/proprietary_vendor_oneplus_wly" path="vendor/oneplus/wly" revision="a14" remote="github" />
+  <project name="Oplus-sm8450-development/android_device_oneplus_sm8450-common" path="device/oneplus/sm8450-common" revision="lineage-22" remote="github" />
+  <project name="Oplus-sm8450-development/vendor_oneplus_sm8450-common" path="vendor/oneplus/sm8450-common" revision="lineage-22" remote="github" />
+  <project name="Oplus-sm8450-development/proprietary_vendor_oneplus_wly" path="vendor/oneplus/wly" revision="lineage-22" remote="github" />
 
   <!-- OnePlus devices -->
-  <project name="Oplus-sm8450-development/android_device_oneplus_wly" path="device/oneplus/wly" revision="lineage-21" remote="github" />
-
-  <!-- Play integrity fix and extras -->
-  <project name="pjgowtham/android_vendor_extra" path="vendor/extra" remote="github" />
-  <project name="luk1337/ih8sn" path="vendor/ih8sn" revision="master" remote="github" />
+  <project name="Oplus-sm8450-development/android_device_oneplus_wly" path="device/oneplus/wly" revision="lineage-22" remote="github" />
+  
+      <!-- other blobs -->
+      <project name="pjgowtham/proprietary_vendor_oplus_camera" path="vendor/oplus/camera" remote="gitlab" revision="lineage-22.0" />
+      <project name="yaap/device_qcom_common" path="device/qcom/common" remote="github" revision="fifteen" />
+      <project name="yaosp/vendor_qcom_common" path="vendor/qcom/common" remote="gitlab" revision="fifteen" />
 </manifest>
